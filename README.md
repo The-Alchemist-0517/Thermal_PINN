@@ -6,7 +6,7 @@ This project aims to apply **Physics-Informed Neural Networks (PINN)** to predic
 
 1. **FEM Simulation Data as PINN Input**: Before conducting actual experiments, we first solve the heat conduction model using **Finite Element Method (FEM)** in MATLAB and extract temperature data at specific locations as the input for PINN. This data can be considered "synthetic experimental data" and used to test the feasibility of the PINN model.
 2. **Real Experimental Data Comparison**: Real experimental data is collected from RTDs and compared with the temperature predictions made by the PINN model to evaluate its accuracy using thermocouples' data, which are attached at the different positions of the beam.
-![Alt text](https://github.com/The-Alchemist-0517/Thermal_PINN/issues/1#issue-2736588676)
+![Alt text]([https://github.com/The-Alchemist-0517/Thermal_PINN/issues/1#issue-2736588676](https://github.com/The-Alchemist-0517/Thermal_PINN/blob/main/field_reconstruction.png))
 
 ## Project Goals
 

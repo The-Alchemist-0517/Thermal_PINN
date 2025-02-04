@@ -93,7 +93,7 @@ open(v);
 
 figure;
 
-for i = 1:length(tlist)
+for i = 1:length(tlist)/50
     set(gcf,'papertype','a4','paperorientation','portrait','paperunits','centimeters',...
     'paperposition',[0.63 0.63 28.41 19.72]);
     axis tight manual 
